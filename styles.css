@@ -1,0 +1,23 @@
+.message-queue-panel {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.queue-item {
+  transition: all 0.2s ease;
+}
+
+.queue-item:hover {
+  background-color: rgba(79, 84, 92, 0.3);
+}
+
+.queue-status-pending {
+  color: #FAA81A;
+}
+
+.queue-status-sending {
+  color: #5865F2;
+}
+
+.queue-status-failed {
+  color: #ED4245;
+}
