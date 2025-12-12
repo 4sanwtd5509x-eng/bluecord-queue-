@@ -1,0 +1,23 @@
+{
+  "name": "Message Queue",
+  "version": "1.0.0",
+  "description": "Queue Discord messages to send later with smart rate limiting",
+  "author": "YourName",
+  "license": "MIT",
+  "icon": "https://raw.githubusercontent.com/YOUR_USERNAME/bluecord-message-queue/main/icon.png",
+  "permissions": [
+    "sendMessages",
+    "readMessages",
+    "storeData",
+    "showToasts"
+  ],
+  "entry": "index.js",
+  "repo": "https://github.com/YOUR_USERNAME/bluecord-message-queue",
+  "target": "discord",
+  "bluecord": {
+    "minVersion": "1.2.0",
+    "compatibleClients": ["discord"],
+    "category": "Utility"
+  },
+  "dependencies": []
+}
