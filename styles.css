@@ -1,23 +1,6 @@
-.message-queue-panel {
-  font-family: 'Segoe UI', 'Roboto', sans-serif;
-}
-
-.queue-item {
-  transition: all 0.2s ease;
-}
-
-.queue-item:hover {
-  background-color: rgba(79, 84, 92, 0.3);
-}
-
-.queue-status-pending {
-  color: #FAA81A;
-}
-
-.queue-status-sending {
-  color: #5865F2;
-}
-
-.queue-status-failed {
-  color: #ED4245;
+{
+  "version": "1.0.0",
+  "changelog": "Initial release\n- Message queue functionality\n- Rate limit protection\n- Floating queue button\n- Queue management modal\n- Persistent storage\n- Settings panel",
+  "downloadUrl": "https://github.com/YOUR_USERNAME/aliucord-message-queue/releases/download/v1.0.0/MessageQueue.zip",
+  "sourceUrl": "https://github.com/YOUR_USERNAME/aliucord-message-queue"
 }
